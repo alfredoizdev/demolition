@@ -1,0 +1,235 @@
+@mixin for-270 {
+    @media (max-width: 270px) {
+        @content;
+    }
+}
+
+
+@mixin for-327 {
+    @media (max-width: 327px) {
+        @content;
+    }
+}
+
+@mixin for-330 {
+    @media (max-width: 330px) {
+        @content;
+    }
+}
+
+@mixin for-360 {
+    @media (max-width: 360px) {
+        @content;
+    }
+}
+
+@mixin for-400 {
+    @media (max-width: 400px) {
+        @content;
+    }
+}
+
+@mixin for-450 {
+    @media (max-width: 450px) {
+        @content;
+    }
+}
+
+@mixin for-500 {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin for-540 {
+    @media (max-width: 540px) {
+        @content;
+    }
+}
+
+@mixin for-575 {
+    @media (max-width:575px) {
+        @content;
+    }
+}
+
+@mixin for-640 {
+    @media (max-width: 640px) {
+        @content;
+    }
+}
+
+@mixin for-700 {
+    @media (max-width: 700px) {
+        @content;
+    }
+}
+
+@mixin for-720 {
+    @media (max-width: 720px) {
+        @content;
+    }
+}
+
+@mixin for-740 {
+    @media (max-width: 740px) {
+        @content;
+    }
+}
+
+@mixin for-760 {
+    @media (max-width: 760px) {
+        @content;
+    }
+}
+
+@mixin for-768 {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin for-800 {
+    @media (max-width: 800px) {
+        @content;
+    }
+}
+
+@mixin for-873 {
+    @media (max-width: 873px) {
+        @content;
+    }
+}
+
+@mixin for-900 {
+    @media (max-width: 900px) {
+        @content;
+    }
+}
+
+@mixin for-910 {
+    @media (max-width: 910px) {
+        @content;
+    }
+}
+
+@mixin for-950 {
+    @media (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin for-990 {
+    @media (max-width: 990px) and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin for-1005 {
+    @media (max-width: 1005px) {
+        @content;
+    }
+}
+
+@mixin for-1024 {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin for-1077 {
+    @media (max-width: 1077px) {
+        @content;
+    }
+}
+
+@mixin for-1110 {
+    @media (max-width: 1110px) {
+        @content;
+    }
+}
+
+@mixin for-1125 {
+    @media (max-width: 1125px) {
+        @content;
+    }
+}
+
+@mixin for-1160 {
+    @media (max-width: 1160px) {
+        @content;
+    }
+}
+
+@mixin for-1199 {
+    @media (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin for-1280 {
+    @media (max-width: 1280px) {
+        @content;
+    }
+}
+
+@mixin for-1330 {
+    @media (max-width: 1330px) {
+        @content;
+    }
+}
+
+@mixin for-1400 {
+    @media (max-width: 1400px) {
+        @content;
+    }
+}
+
+@mixin for-1440 {
+    @media (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin for-1536 {
+    @media (max-width: 1536px) {
+        @content;
+    }
+}
+
+@mixin for-1545 {
+    @media (max-width: 1545px) {
+        @content;
+    }
+}
+
+@mixin for-1920 {
+    @media (min-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin shadom-1 {
+    box-shadow: 3px 6px 13px 4px rgb(132 31 36 / 7%);
+}
+
+@mixin shadom-2 {
+    box-shadow: 0px 10px 40px rgba(132, 31, 36, 0.07);
+}
+
+@mixin card-wrap {
+    background: #fff;
+    border-radius: 25px;
+}
+
+@mixin animation-fadeout-in($name) {
+    @keyframes #{$name} {
+        0% {
+            background-color: hsl(200, 20%, 90%);
+        }
+
+        100% {
+            background-color: hsl(200, 20%, 95%);
+        }
+    }
+}

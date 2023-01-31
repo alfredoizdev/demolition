@@ -1,0 +1,23 @@
+@import '@/styles/colors';
+@import '@/styles/mixin';
+
+
+.button {
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	padding: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	@include shadom-1
+}
+
+.primary {
+		background-color: $primary;
+		color: white;
+}
+
+.secondary {
+		background-color: $secondary;
+		color: white;
+}

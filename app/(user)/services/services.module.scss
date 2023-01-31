@@ -1,0 +1,24 @@
+@import '@/styles/colors';
+@import '@/styles/mixin';
+
+.serviceContainer {
+	margin-top: 100px;
+
+	section {
+		margin: 10px;
+		article {
+			h2 {
+				color: white;
+				margin-bottom: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border-bottom: 5px solid $primary;
+				width: 30%;
+			}
+
+			p {
+				color: white;
+			}
+		}
+	}
+}

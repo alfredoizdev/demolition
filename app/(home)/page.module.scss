@@ -1,0 +1,101 @@
+@import '@/styles/colors';
+@import '@/styles/mixin';
+
+.pageContainer {
+	margin-top: 80px;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+	margin: 125px 0;
+
+	article {
+		flex-basis: 100%;
+		padding: 10px;
+		text-align: center;
+
+		h2 {
+			font-size: 25px;
+    		margin: 10px 0;
+			text-transform: uppercase;
+			color: $primary;
+		}
+
+		svg {
+			fill: $primary;
+			width: 40px;
+			height: 40px;
+		}
+
+		p {
+			letter-spacing: 1px;
+			line-height: 20px;
+		}
+	}
+
+	@include for-540 {
+		flex-direction: column;
+		margin: 80px 0;
+	}
+}
+
+.aboutUs {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+	margin-top: 80px;
+	padding: 0 10px;
+	margin: 125px 0;
+
+	.imgContainer {
+		position: relative;
+		width: 100%;
+		height: 400px;
+		flex: 1;
+
+		.imgBorder {
+			width: 300px;
+			height: 300px;
+			background: $primary;
+			padding: 10px;
+			position: absolute;
+    		top: -50px;
+		}
+
+		img {
+			object-fit: cover;
+		}
+
+		@include for-540 {
+				flex: auto;
+			}
+	}
+
+	.copy {
+		flex: 1;
+		h2 {
+			border-bottom: 5px solid $primary;
+			font-size: 40px;
+			width: 40%;
+			padding-bottom: 10px;
+    		margin-bottom: 15px;
+
+			@include for-540 {
+				width: 100%;
+				margin-top: 15px;
+			}
+		}
+		margin-left: 20px;
+		color: white;
+	}
+
+	@include for-540 {
+		flex-direction: column;
+	}
+}

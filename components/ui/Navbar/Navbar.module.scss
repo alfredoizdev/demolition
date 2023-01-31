@@ -1,0 +1,71 @@
+@import '@/styles/colors';
+@import  '@/styles/mixin';
+
+.navBg {
+	background: $dark;
+	width: 100%;
+	position: fixed;
+	top: 0;
+    z-index: 400;
+}
+
+.navContainer {
+	max-width: 1200px;
+ 	margin: 0 auto;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+	.logo {
+		position: relative;
+    	height: 70px;
+		margin-left: 10px;
+	}
+}
+
+.nav {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	li {
+		margin: 10px;
+		a {
+			color: white;
+			text-transform: uppercase;
+		}
+
+		@include for-768 {
+		display: none;
+	}
+	}
+}
+
+.getConsultant {
+	margin-right: 20px;
+	@include for-768 {
+		display: none;
+	}
+}
+
+.mobileMenu {
+
+	display: none;
+
+	@include for-768 {
+		display: block;
+		border: none;
+		padding: 10px;
+		font-size: 15px;
+		margin: 10px;
+		background: transparent;
+
+		svg {
+			fill: $primary;
+			width: 25px;
+			height: 25px;
+		}
+	}
+}
