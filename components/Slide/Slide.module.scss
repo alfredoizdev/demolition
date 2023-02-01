@@ -1,0 +1,71 @@
+@import '@/styles/colors';
+@import '@/styles/mixin';
+
+.slideContainer {
+	margin-top: 70px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.showSlide {
+		display: flex;
+		width: 100%;
+
+		.slide {
+			min-width: 100%;
+			text-align: center;
+			overflow: hidden;
+			z-index: 5;
+			position: relative;
+    		height: 700px;
+		}
+	}
+}
+
+
+.contentInfo {
+		position: absolute;
+		z-index: 300;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #141a1d7d;
+.copy {
+	text-align: center;
+	
+	position: absolute;
+	margin: 20px;
+	width: 100%;
+	z-index: 200;
+	h2 {
+		font-size: 60px;
+		font-weight: 900;
+		letter-spacing: 1px;
+		color: white;
+		line-height: 75px;
+
+		@include for-768 {
+			font-size: 50px;
+		}
+	}
+	p {
+		font-size: 40px;
+		color: white;
+		line-height: 30px;
+		span {
+			color: $primary;
+		}
+
+		@include for-768 {
+			font-size: 30px;
+		}
+	}
+
+			
+		}
+	}
