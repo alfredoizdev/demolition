@@ -1,6 +1,7 @@
 import styles from './services.module.scss';
 import BreadCrumb from '@/components/ui/BreadCrumb/BreadCrumb.componet';
 import { BsFillMegaphoneFill } from "react-icons/bs";
+import Title from '@/components/Title/Title.component';
 
 
 const ServicesPage = () => {
@@ -9,7 +10,7 @@ const ServicesPage = () => {
 			<BreadCrumb />
 			<section>
 				<article className={styles.service}>
-					<h2><BsFillMegaphoneFill /> Demolition</h2>
+					<Title text={`Demolition`} type="h2" />
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione cum,
 						facilis dicta beatae deleniti saepe pariatur quas repellat,
 						cupiditate dolores a sunt atque ullam sed tempora corrupti
@@ -21,7 +22,7 @@ const ServicesPage = () => {
 					</p>
 				</article>
 				<article className={styles.service}>
-					<h2> <BsFillMegaphoneFill /> Clening</h2>
+					<Title text={`Cleaning`} type="h2" />
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione cum,
 						facilis dicta beatae deleniti saepe pariatur quas repellat,
 						cupiditate dolores a sunt atque ullam sed tempora corrupti
@@ -33,7 +34,7 @@ const ServicesPage = () => {
 					</p>
 				</article>
 				<article className={styles.service}>
-					<h2><BsFillMegaphoneFill /> Pick up</h2>
+					<Title text={`Pick Up`} type="h2" />
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione cum,
 						facilis dicta beatae deleniti saepe pariatur quas repellat,
 						cupiditate dolores a sunt atque ullam sed tempora corrupti

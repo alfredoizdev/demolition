@@ -1,6 +1,7 @@
 import styles from './about.module.scss';
 import Image from 'next/image';
 import BreadCrumb from '@/components/ui/BreadCrumb/BreadCrumb.componet';
+import Title from '@/components/Title/Title.component';
 
 
 const AboutPage = () => {
@@ -17,7 +18,7 @@ const AboutPage = () => {
 					/>
 				</article>
 				<article className={styles.copy}>
-					<h2>About us</h2>
+					<Title text='About Us' type='h2' />
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione cum,
 						facilis dicta beatae deleniti saepe pariatur quas repellat,
 						cupiditate dolores a sunt atque ullam sed tempora corrupti

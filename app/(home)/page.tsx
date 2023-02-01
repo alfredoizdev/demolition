@@ -1,6 +1,7 @@
 import styles from './page.module.scss'
 import { BsTools } from "react-icons/bs";
 import Image from 'next/image';
+import Title from '@/components/Title/Title.component';
 
 interface service {
 	title: string;
@@ -50,7 +51,7 @@ export default function Home() {
 						/>
 					</article>
 					<article className={styles.copy}>
-						<h2>About us</h2>
+						<Title text='About Us' type="h2" />
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione cum,
 							facilis dicta beatae deleniti saepe pariatur quas repellat,
 							cupiditate dolores a sunt atque ullam sed tempora corrupti
